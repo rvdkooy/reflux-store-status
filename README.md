@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/rvdkooy/reflux-store-status.svg?branch=master)](https://travis-ci.org/rvdkooy/reflux-store-status)
+
 # reflux-store-status
 A reflux store mixin that makes your store status aware.
 
