@@ -6,7 +6,7 @@
   "scripts": {
     "test": "./node_modules/.bin/karma start --single-run --browsers PhantomJS"
   },
-  "author": "",
+  "author": "Ronald van der Kooij",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -24,8 +24,9 @@
     "karma-browserify": "^4.2.1",
     "karma-chrome-launcher": "~0.1.2",
     "karma-jasmine": "^0.2.2",
-    "karma-phantomjs-launcher": "~0.1.2",
-    "react": "0.13.x",
-    "reactify": "^1.1.0"
+    "karma-phantomjs-launcher": "~0.1.2"
+  },
+  "peerDependencies": {
+    "reflux": "0.2.x"
   }
 }
