@@ -2,7 +2,7 @@
 A reflux store mixin that makes your store status aware.
 
 
-With refluxjs you can create async actions that you typically use for API calls. During those calls you want to give the user some feedbackthat something is happening in the background.
+With [reflux](https://github.com/reflux/refluxjs) js you can create async actions that you typically use for API calls. By using this mixin you can easily give your users feedback during those calls based on the status of your store.
 
 ```
 // In your store:
