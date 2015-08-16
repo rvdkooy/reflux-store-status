@@ -28,5 +28,8 @@
   },
   "peerDependencies": {
     "reflux": "0.2.x"
+  },
+  "dependencies": {
+    "object-assign": "^3.0.0"
   }
 }
