@@ -48,12 +48,13 @@ The following Store helpers are available:
 ```
 // to put the store into the READY status:
 this.ready();
+this.ready(newstate); // puts the store into the READY status and updates the state
 
 // to put the store into the PENDING status:
-this.pending();
+this.pending(newstate);
 
 // to put the store into the FAILED status:
-this.failed();
+this.failed(newstate);
 
 // to put the store into any or your own status:
 this.setStatus(status);
@@ -62,3 +63,4 @@ this.setStatus(status);
 this.resetToInitialStatus();
 
 ```
+Note: Only the ready, pending and failed helpers accept an optional parameter which will be used to update the state!
