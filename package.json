@@ -1,6 +1,6 @@
 {
   "name": "reflux-store-status",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "A reflux store mixin that makes your store status aware",
   "main": "index.js",
   "scripts": {
@@ -28,5 +28,8 @@
   },
   "peerDependencies": {
     "reflux": "0.2.x"
+  },
+  "dependencies": {
+    "object-assign": "^3.0.0"
   }
 }
