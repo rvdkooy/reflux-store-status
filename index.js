@@ -1,11 +1,5 @@
 var objectAssign = require('object-assign');
-
-var statusCodes = {
-    INITIAL: "INITIAL",
-    READY: "READY",
-    PENDING: "PENDING",
-    FAILED: "FAILED"
-};
+var statusCodes = require('./statusCodes');
 
 module.exports = {
     init: function() {
