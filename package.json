@@ -1,6 +1,6 @@
 {
   "name": "reflux-store-status",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A reflux store mixin that makes your store status aware",
   "main": "index.js",
   "scripts": {
