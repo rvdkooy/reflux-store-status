@@ -27,9 +27,10 @@
     "karma-phantomjs-launcher": "~0.1.2"
   },
   "peerDependencies": {
-    "reflux": "0.2.x"
+    "reflux": ">=0.2.x"
   },
   "dependencies": {
-    "object-assign": "^3.0.0"
+    "object-assign": "^3.0.0",
+    "reflux": "^0.3.0"
   }
 }
